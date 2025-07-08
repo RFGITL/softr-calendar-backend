@@ -65,4 +65,4 @@ app.post('/api/events', ensureAuth, async (req, res) => {
 
 // Inicia server
 const PORT = env.PORT || 3000;
-app.listen(PORT, () => console.log(Rodando na porta ));
+app.listen(PORT, () => console.log('Rodando na porta', PORT));
